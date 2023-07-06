@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0;
+    background-color: lightyellow;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    color: #D70925;
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    color: #2C2C54;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.6rem;
+    word-spacing: 0.3rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20% 0px 20%;
+    min-height: 100vh;
+}
+
+button {
+    background-color: #D70925;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 100px;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: lightyellow;
+    font-weight: 400;
+}
+
+img {
+    padding: 20px;
+    border-radius: 20%;
+    cursor: zoom-in;
+    transition: 0.3s all ease-out;
+    transition: transform 0.3s ease;
+    object-fit: cover;
+}
+
+.image {
+    overflow: hidden;
+    margin: 0 auto;
+    transition: border-radius 0.3s linear;
+}
+
+img:hover {
+    transform: scale(1.5);
+}
+
+.image:hover {
+    border-radius: 300px;
+}
+
+button:hover {
+    background-color: #2C2C54;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: lightyellow;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #D70925;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #2C2C54;
+}
